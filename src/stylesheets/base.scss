@@ -1,3 +1,4 @@
+
 @import 'colors';
 @import 'fonts';
 @import 'tip';
@@ -6,11 +7,13 @@
 @import 'header';
 @import 'footer';
 @import url(https://www.thoughtworks.com/css/screen.css);
+@import 'rea';
 
 body {
-  font: 18px 'Open Sans';
+  font: 18px "Museo-Sans-500","Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0;
+  color: #484848;
 }
 
 @media print {

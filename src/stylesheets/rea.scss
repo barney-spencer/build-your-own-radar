@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Museo-Sans-300;
+    src: url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-300-v1.eot);
+    src: url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-300-v1.eot?#iefix) format("embedded-opentype"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-300-v1.woff) format("woff"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-300-v1.ttf) format("truetype"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-300-v1.svg#Museo-Sans-300) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Museo-Sans-500;
+    src: url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-500-v1.eot);
+    src: url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-500-v1.eot?#iefix) format("embedded-opentype"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-500-v1.woff) format("woff"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-500-v1.ttf) format("truetype"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-500-v1.svg#Museo-Sans-500) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Museo-Sans-700;
+    src: url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-700-v2.eot);
+    src: url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-700-v2.eot?#iefix) format("embedded-opentype"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-700-v2.woff) format("woff"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-700-v2.ttf) format("truetype"),url(//s1.rui.au.reastatic.net/rui-static/font/museo-sans-700-v2.svg#Museo-Sans-700) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Museo-Sans-500","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: none;
+}
+
+header .radar-title .radar-title__text h1{
+    text-transform: none;
+}
+
+a, a:hover{
+    color: #2b6ed2;
+    border-bottom: #2b6ed2;
+}
