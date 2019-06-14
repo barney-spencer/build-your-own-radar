@@ -101,6 +101,11 @@ module.exports = {
         use: [{ loader: 'file-loader?name=images/[name].[ext]&context=./src/images' }]
       },
       {
+        test: /\.(csv|xls)$/,
+        exclude: /node_modules/,
+        use: [{ loader: 'file-loader?name=data/[name].[ext]'}]
+      },
+      {
         test: require.resolve('jquery'),
         use: [{ loader: 'expose-loader', options: 'jQuery' }, { loader: 'expose-loader', options: '$' }]
       }

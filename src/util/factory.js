@@ -204,8 +204,13 @@ const GoogleSheetInput = function () {
     var domainName = DomainName(window.location.search.substring(1))
     var queryString = window.location.href.match(/sheetId(.*)/)
     var queryParams = queryString ? QueryParams(queryString[0]) : {}
+    var locaFilePath = '/data/radar.csv'
+    var useLocalFile=true 
 
-    if (domainName && queryParams.sheetId.endsWith('csv')) {
+    if(useLocalFile){
+      sheet = CSVDocument(locaFilePath)
+      sheet.init().build()
+    } else if (domainName && queryParams.sheetId.endsWith('csv')) {
       sheet = CSVDocument(queryParams.sheetId)
       sheet.init().build()
     } else if (domainName && domainName.endsWith('google.com') && queryParams.sheetId) {
