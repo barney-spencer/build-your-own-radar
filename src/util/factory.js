@@ -166,7 +166,7 @@ const CSVDocument = function (url) {
       contentValidator.verifyContent()
       contentValidator.verifyHeaders()
       var blips = _.map(data, new InputSanitizer().sanitize)
-      plotRadar(FileName(url), blips, 'CSV File', [])
+      plotRadar("Tech Radar Vol. 1", blips, 'CSV File', [])
     } catch (exception) {
       plotErrorMessage(exception)
     }
